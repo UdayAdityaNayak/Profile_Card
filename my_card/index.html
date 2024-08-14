@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="card">
+            <div class="pic"><img src="my pic.jpg" alt="my_picture"></div>
+            <div class="name">Uday Aditya Nayak</div>
+            <div class="prfession">Software Engineer</div>
+            <div class="buttons">
+                <div class="share">
+                    <i class="fa-solid fa-share" style="color: #ffffff;"></i>
+                    <button onclick="openModal()">Share my profile</button>
+                </div>
+                <div class="follow">
+                    <button>Follow ME</button>
+                </div>
+            </div>
+        </div>
+        <div class="modal">
+            <div class="modal_heading">
+                <h1>Share My Profile</h1>
+                <i onclick="closeModal()" class="fa-solid fa-xmark fa-xl" style="color: #ffffff;"></i>
+            </div>
+            <div class="sub_head">Share This via</div>
+            <div class="links">
+                <a href="https://www.facebook.com/uday.nayak.1612/" target="_blank"><i class="fa-brands fa-facebook-f fa-2xl"></i></a>
+                <a href="https://x.com/UdayAdityaNayak" target="_blank"><i class="fa-brands fa-twitter fa-2xl" ></i></a>
+                <a href="https://www.instagram.com/shubhakanta_nayak_/" target="_blank"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                <a href="https://wa.me/7008539611" target="_blank"><i class="fa-brands fa-whatsapp fa-2xl"></i></a>
+                <a href="https://t.me/+917008539611" target="_blank"><i class="fa-brands fa-telegram fa-2xl"></i></a>
+            </div>
+        </div>
+        <div onclick="closeModal()" class="layer"></div>
+    </div>
+    <script src="https://kit.fontawesome.com/39cbc8415b.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
